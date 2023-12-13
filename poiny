@@ -1,0 +1,24 @@
+Class point :
+  def __init__(self,ordone=0,absise=0) :
+   self.ordone=ordone
+   self.absise=absise 
+ 
+ def getordone (self) :
+    return  self.ordone
+ def getabsise (self) :
+    return  self.absise
+def setordone(self , new ) :
+    self.ordone = new
+def setabsise(self , New ) :
+   self.absise = New
+def norme () :
+ return sqrt (( self.ordone x self.ordonne ) + ( self.absise x self.absise ))
+def distance (self , P) :
+ return sqrt (( self.ordone -  P.ordone ) + ( self.absise - P.absise ))
+def __str__(self):
+return f"X={self.ordone} , Y={self.absise}"
+def equal(Self,A) :
+if self.absise=A.absise and Self.ordone=A.ordone :
+return True 
+else :
+False 
